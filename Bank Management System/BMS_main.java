@@ -22,11 +22,11 @@ public class BMS_main {
       System.out.println("Enter account_no");                        // taking  user account number 
 	long account_no=sc.nextLong();
 	System.out.println("Enter account_holdername");          // taking account holder name 
-	String account_holdername=sc.nextLine();
+	String account_holdername=sc.next();
 	System.out.println("Enter Ifsc code");                                // taking user ifsc code 
-	String ifsc_code=sc.nextLine();
+	String ifsc_code=sc.next();
 	System.out.println("enter branch name");                        // taking branch name of account holder 
-	String branch = sc.nextLine();
+	String branch = sc.next();
 	System.out.println("Enter your ammount , not less than 500 \n  Balance should be  Double valued ");                    // taking primary deposit 
 	double balance=sc.nextDouble();
 	System.out.println("Enter pin");                                             // taking pin 
